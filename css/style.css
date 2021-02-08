@@ -1,0 +1,6 @@
+body{background-color:aqua;
+background-image:url("../img/runway.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{color: red;}
