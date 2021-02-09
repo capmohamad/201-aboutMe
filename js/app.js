@@ -2,34 +2,111 @@
 'use strict';
 
 
-let
+let city = 0;
+ do (city === 5) {
+     alert('you are to far');
+ } else if (city > 5) {
+     alert('welcome')
+ } else {
+     alert('ywellcome');
+
+console.log(city);
+ }
+
+// switch(city<=7){
+//     case '1':
+//         do code...
+//         break;
+//      case '7':
+//          do  else.console.log();
+//          break;
+//      default:
+//          do if nothing matches the casses
+//          break;
+
+let score = 0
 
 
 
+let userName = prompt('May I know your name?');
 
-
-
-
-
-/*let asia=prompt('what asia cuntry you like');
-
-switch(asia.toUpperCase()){
-    case 'ASIA':
-
-
-        console.log(asia.toUpperCase)
-        console.log('asia are big area ');
-        break;
-    case 'india':
-    case 'chaina':
-        console.log('india and chaina are part of asia');
-        break;
-        case'spain':
-        case'france':
-        console.log('spain and france part of EU');
-
-    default:
-        console.log('nice to know');
+while (!userName) {
+    userName = prompt('please tell me your name');
 }
 
-console.log(asia.toUpperCase());
+if (userName !== 'mohammed') {
+    alert('too bad youre not mohammed');
+}
+
+alert('Hola ' + userName + ' glad to have you here');
+
+let answer = prompt('is my favourtie city Prag', 'answer with yes or no');
+
+console.log(answer);
+
+if (answer.toLowerCase() === 'yes') {
+    alert('good job');
+    score++
+} else {
+    alert('no thats wrong');
+
+}
+
+console.log(score);
+
+let cityArry = ['Prag', 'Medina', 'Amman', 'Jerusalem', 'Moscow', 'Dubai', 'Doha'];
+
+let check = true;
+
+
+for (let i = 1; i < 7; i++) {
+    let questionOne = prompt('what is most city i visit?');
+
+    for (let ix = 0; ix < cityArry.length; ix++) {
+
+        if (questionOne == cityArry[ix]) {
+            console.log(questionOne, cityArry[ix])
+            check = false
+            score++;
+            break;
+        }
+
+
+        // let anothercity = 'Prag';
+
+        console.log(cityArry[ix]);
+    }
+    if (check == false) {
+        break;
+    }
+}
+let question2 = prompt('how many city i like');
+
+if (question2.toLowerCase() === 'no' || question2.toLowerCase() === 'n') {
+    score++
+    score = score + 1
+    alert('good job')
+
+} else {
+    alert('wrong')
+}
+console.log(score);
+
+alert('score is ' + score);
+
+
+let gussingGame = 30
+
+let i = 0;
+do {
+    let z = prompt('giss number between 10 to 30 ?')
+    if (z < 30) {
+        alert('to low')
+    }
+    else if (z > 30) {
+        alert('to high')
+    }{
+
+    while (i < 30);
+    }score++;
+}

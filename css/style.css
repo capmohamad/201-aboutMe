@@ -1,6 +1,20 @@
-body{background-color:aqua;
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+
+
+
+body 
+{background-color:aqua;
 background-image:url("../img/runway.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-}
-h1{color: red;}
+
+    box-sizing: border-box;
+  }
+h1{color: rgb(11, 12, 26);}
