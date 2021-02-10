@@ -24,9 +24,7 @@
 //          do if nothing matches the casses
 //          break;
 
-let score = 0
-
-
+let score = 0;
 
 let userName = prompt('May I know your name?');
 
@@ -46,13 +44,11 @@ console.log(answer);
 
 if (answer.toLowerCase() === 'yes') {
     alert('good job');
-    score++
+    score++;
 } else {
     alert('no thats wrong');
 
 }
-
-console.log(score);
 
 let cityArry = ['Prag', 'Medina', 'Amman', 'Jerusalem', 'Moscow', 'Dubai', 'Doha'];
 
@@ -66,6 +62,7 @@ for (let i = 1; i < 7; i++) {
 
         if (questionOne == cityArry[ix]) {
             console.log(questionOne, cityArry[ix])
+            alert('that\s right');
             check = false
             score++;
             break;
@@ -100,12 +97,12 @@ let correctNumber = 20
 for (let i = 10; i < 20; i++) {
 
     let gussingGame = prompt('guess a numbber between 10-30')
-    if (question6 == correctNumber) {
+    if (gussingGame == correctNumber) {
         alert('nice answer');
         score++;
         break;
-    } else if (question6 > correctNumber) { alert('too high') }
-    else if (question6 < correctNumber) {
+    } else if (gussingGame > correctNumber) { alert('too high') }
+    else if (gussingGame < correctNumber) {
         alert('too low ')
     } else ('pleas input number')
     if (i == 15)
@@ -113,11 +110,11 @@ for (let i = 10; i < 20; i++) {
 }
 }
 
-function welcomeMessage(uuserName){
+/*function welcomeMessage(uuserName){
     let output= 'nice to see you'+ userName
 return output
 }
-/*let i = 0;
+let i = 0;
 do {
     let z= prompt('giss number between 10 to 30 ?')
     if (z < 30) {
