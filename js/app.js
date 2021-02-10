@@ -2,16 +2,16 @@
 'use strict';
 
 
-let city = 0;
- do (city === 5) {
-     alert('you are to far');
- } else if (city > 5) {
-     alert('welcome')
- } else {
-     alert('ywellcome');
+//let city = 0;
+//do (city === 5) {
+//   alert('you are to far');
+//} else if (city > 5) {
+//    alert('welcome')
+//} else {
+//   alert('ywellcome');
 
-console.log(city);
- }
+//console.log(city);
+//}
 
 // switch(city<=7){
 //     case '1':
@@ -79,6 +79,7 @@ for (let i = 1; i < 7; i++) {
     if (check == false) {
         break;
     }
+    alert('most city i visited'+ cityArry);
 }
 let question2 = prompt('how many city i like');
 
@@ -95,18 +96,34 @@ console.log(score);
 alert('score is ' + score);
 
 
-let gussingGame = 30
+let correctNumber = 20
+for (let i = 10; i < 20; i++) {
 
-let i = 0;
+    let gussingGame = prompt('guess a numbber between 10-30')
+    if (question6 == correctNumber) {
+        alert('nice answer');
+        score++;
+        break;
+    } else if (question6 > correctNumber) { alert('too high') }
+    else if (question6 < correctNumber) {
+        alert('too low ')
+    } else ('pleas input number')
+    if (i == 15)
+    {alert ('the corect number is ' + correctNumber);
+}
+}
+/*let i = 0;
 do {
-    let z = prompt('giss number between 10 to 30 ?')
+    let z= prompt('giss number between 10 to 30 ?')
     if (z < 30) {
         alert('to low')
     }
     else if (z > 30) {
         alert('to high')
-    }{
+    }
 
-    while (i < 30);
-    }score++;
+    while (i < 30) {
+        score++;
+    }
+    console.log('nice try');
 }
