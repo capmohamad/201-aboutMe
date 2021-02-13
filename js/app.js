@@ -76,7 +76,7 @@ for (let i = 1; i < 7; i++) {
     if (check == false) {
         break;
     }
-    alert('most city i visited'+ cityArry);
+    alert('most city i visited' + cityArry);
 }
 let question2 = prompt('how many city i like');
 
@@ -105,9 +105,9 @@ for (let i = 10; i < 20; i++) {
     else if (gussingGame < correctNumber) {
         alert('too low ')
     } else ('pleas input number')
-    if (i == 15)
-    {alert ('the corect number is ' + correctNumber);
-}
+    if (i == 15) {
+        alert('the corect number is ' + correctNumber);
+    }
 }
 
 /*function welcomeMessage(uuserName){
@@ -128,4 +128,4 @@ do {
         score++;
     }
     console.log('nice try');
-}
+// }
