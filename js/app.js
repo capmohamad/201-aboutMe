@@ -110,22 +110,22 @@ for (let i = 10; i < 20; i++) {
     }
 }
 
-/*function welcomeMessage(uuserName){
-    let output= 'nice to see you'+ userName
-return output
-}
-let i = 0;
-do {
-    let z= prompt('giss number between 10 to 30 ?')
-    if (z < 30) {
-        alert('to low')
-    }
-    else if (z > 30) {
-        alert('to high')
-    }
-
-    while (i < 30) {
-        score++;
-    }
-    console.log('nice try');
+// /*function welcomeMessage(uuserName){
+//     let output= 'nice to see you'+ userName
+// return output
 // }
+// let i = 0;
+// do {
+//     let z= prompt('giss number between 10 to 30 ?')
+//     if (z < 30) {
+//         alert('to low')
+//     }
+//     else if (z > 30) {
+//         alert('to high')
+//     }
+
+//     while (i < 30) {
+//         score++;
+//     }
+//     console.log('nice try');
+// // }
