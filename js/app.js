@@ -81,15 +81,14 @@ function A3() {
         }
         alert('most city i visited' + cityArry);
     }
-<<<<<<< HEAD
     alert('most city i visited' + cityArry);
 }
 let question2 = prompt('how many city i like');
-=======
-} A3();
+
+ A3();
 function A4() {
     let question2 = prompt('how many city i like');
->>>>>>> 657ee4420995e335d1a23865f4b8d7b6577ad064
+ 
 
     if (question2.toLowerCase() === 'no' || question2.toLowerCase() === 'n') {
         score++;
@@ -121,57 +120,18 @@ function A5() {
     alert('the corect number is ' + correctNumber);
 } A5();
 
-<<<<<<< HEAD
     let gussingGame = prompt('guess a numbber between 10-30')
     if (gussingGame == correctNumber) {
         alert('nice answer');
         score++;
-        break;
+        
     } else if (gussingGame > correctNumber) { alert('too high') }
     else if (gussingGame < correctNumber) {
         alert('too low ')
     } else ('pleas input number')
     if (i == 15) {
         alert('the corect number is ' + correctNumber);
-=======
+
 alert('score is ' + score);
-
-/*function welcomeMessage(uuserName){
-    let output= 'nice to see you'+ userName
-return output
-}
-let i = 0;
-do {
-    let z= prompt('giss number between 10 to 30 ?')
-    if (z < 30) {
-        alert('to low')
     }
-    else if (z > 30) {
-        alert('to high')
->>>>>>> 657ee4420995e335d1a23865f4b8d7b6577ad064
-    }
-}
-<<<<<<< HEAD
-
-// /*function welcomeMessage(uuserName){
-//     let output= 'nice to see you'+ userName
-// return output
-// }
-// let i = 0;
-// do {
-//     let z= prompt('giss number between 10 to 30 ?')
-//     if (z < 30) {
-//         alert('to low')
-//     }
-//     else if (z > 30) {
-//         alert('to high')
-//     }
-
-//     while (i < 30) {
-//         score++;
-//     }
-//     console.log('nice try');
-// // }
-=======
-*/
->>>>>>> 657ee4420995e335d1a23865f4b8d7b6577ad064
+    
